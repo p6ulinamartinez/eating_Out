@@ -53,3 +53,6 @@ Looking at the data, we are comparing two categorical data types therefore we wi
 ```{r include = TRUE, echo = FALSE}
 barchartGC(~race + eatout,data=mydata, type="percent")
 ```
+
+We can see from the results that the overall frequency of "white" is higher than both races however the difference from "black" is most pronounced. The "black" and "other" are more similar.
+
