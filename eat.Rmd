@@ -29,6 +29,14 @@ mydata <- select(GSS,race,age,eatout)
 mydata <- na.omit(mydata)
 ```
 
+# Introduction
+
+There were two years in which the General Social Survey asked about the frequency of eating out.
+
+The next year after 1983 with data available is 1996. We will be comparing race and eatout frequency in the data.
+
+$H_0$ There is no difference among the various races with frequency of eating out  
+$H_A$ There is a statistical difference between at least two races with the frequency of eating out  
 
 
 
